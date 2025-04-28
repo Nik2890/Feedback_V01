@@ -9,16 +9,14 @@
 
     <script>
 
-
         const Database = iniSupabase();
-
         let test = lesen()
 
+        //################################################################################        
         function onload() {
             einfügen()
 
         }
-
 
         //################################################################################
         function iniSupabase() {
@@ -28,7 +26,6 @@
             return Database
         }
         //################################################################################
-
         async function einfügen() {
 
             let timestamp = new Date().toLocaleString('de-DE', {
